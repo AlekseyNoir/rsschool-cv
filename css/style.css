@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to top, lightgrey, #48beff);
+    min-height: 100%;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    height: 100%; 
+  }
+
+.content {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: whitesmoke;   
+    border-radius: 7px;
+    min-height: 100%;
+    flex: 1 1 auto;
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+a.nav_button {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: #0a0a0a;
+    margin: 4px; 
+    border: none;
+    height: auto;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+
+    transition: color 0.5s linear; 
+}
+
+a.nav_button:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;;
+
+    transition: width 0.5s linear;
+}
+
+a.nav_button:hover{
+    color: whitesmoke;    
+}
+
+a.nav_button:hover:after {
+    width: 0;
+}
+
+img.ava {
+    margin-top: 12px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25% !important;
+}
+
+.person {
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: center;
+}
+
+.theme_info{
+    border: 3px solid #0a0a0a;
+    border-radius: 7px;
+    margin-left:25%;
+    margin-right:25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.years{
+    color: lightseagreen;
+}
+
+ul.skills-list { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid #0a0a0a;
+    border-radius: 7px;
+    margin-left:25%;
+    margin-right:25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul.contacts-info { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid #0a0a0a;
+    border-radius: 7px;
+    margin-left:20%;
+    margin-right:20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.language-info {
+    border: 3px solid #0a0a0a;
+    border-radius: 7px;
+    margin-left:41%;
+    margin-right:41%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.code_name {
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #0a0a0a;
+}
+
+.code {
+    border: 3px solid #0a0a0a;
+    border-radius: 7px;
+    margin-left:40%;
+    margin-right:40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: beige;
+    display: block;
+}
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+img.rss-logo {
+    width: 75px;
+    height: 50px;
+}
+
+.footer-left {
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+}
+
+a.footer_text {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.tg, .lkin {
+    text-decoration: none;
+    color: black;
+}
